@@ -1,0 +1,416 @@
+/* form's color, box-shadow and perimeters */
+.form {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* first div header settings */
+.head {
+    text-align: center;
+}
+
+.head_name {
+    font-size: 20px;
+    margin: 0;
+}
+
+.application {
+    text-align: center;
+    display: inline-block;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form_app {
+    margin: 0px;
+}
+
+.app {
+    display: inline-block;
+}
+
+
+
+.date_form {
+    font-weight: bold;
+    border: 2px;
+    margin: 0;
+    background-color: white;
+}
+
+.a {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* second div body settings */ 
+.name-name {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.an {
+    margin: 0%;
+    font-weight: bold;
+}
+
+
+
+.lln,
+.ffn {
+    padding-top: 6px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+
+.tell_in,
+.yes_state,
+.spouse_firstname,
+.spouse_lastname,
+.spouse_day,
+.day {
+    padding-top: 6px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    width: 250px;
+}
+
+
+
+.sex {
+    display: flex;
+    justify-content: left;
+    align-items:flex-end;
+}
+
+.st {
+    margin: 0%;
+    font-weight: bold;
+}
+
+.m,
+.fe {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100px;
+}
+
+.sd {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.mmff {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.smdd {
+    display: flex;
+    align-content: flex-start;
+    width: fit-content;
+}
+
+/* semi-general margin broadcast */
+.single,
+.married,
+.divorce,
+.s,
+.mm,
+.ms_tick,
+.em,
+.d,
+.soe,
+.ami,
+.dobb,
+.sfn,
+.married_info,
+.sdob,
+.la,
+.pp,
+.tel {
+    margin: 0;
+}
+
+.single,
+.married,
+.divorce {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+}
+
+.e {
+    min-width: 580px;
+    width: 600px;
+}
+
+.my,
+.marrieda,
+.ss,
+.e,
+.yn {
+    display: flex;
+}
+
+.yes {
+    margin-right: 50px;
+}
+
+.my {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.ss,
+.married {
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.nsl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nsl,
+.ss,
+.married,
+.my,
+.email {
+    margin-bottom: 15px;
+}
+
+/* input's alignment design */
+.day,
+.yes_state,
+.spouse_firstname,
+.spouse_lastname,
+.spouse_day,
+.tell_in,
+.occu,
+.nation,
+.soo,
+.LGA_inp,
+.e {
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+/*@keyframes left_right {
+    from {
+        background-position: left;
+    }
+    to {
+        background-position: right;
+    }
+}
+
+if when background transaction needed
+
+*/
+
+/* body's image and settings */
+body {
+    min-height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('c5.jpg');
+    opacity: 0.8;
+    display: flex;
+
+}
+
+
+.e {
+    width:max-content; 
+}
+
+.nation,
+.soo,
+.LGA_inp {
+    padding-left: 5px;
+}
+
+.occu {
+    width: 257.5px;
+}
+
+.single,
+.marrieda,
+.divorce {
+    width: fit-content;
+    margin-right: 0;
+}
+
+
+.smdd {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+.text_next:hover {
+    color: red;
+}
+
+.next {
+    display: flex;
+    justify-content: right;
+}
+
+.last_pre {
+    display: flex;
+    padding-top: 30px;
+    justify-content: left;
+}
+
+
+/* form2*/
+
+.ca,
+.comp_a,
+.cn {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 600px;
+}
+
+.cd,
+.current_address {
+    margin: 0;
+}
+
+.residence,
+.line1,
+.line3 {
+    display: flex;
+    justify-content: space-between;
+    width: 608px;
+    margin-top: 10px;
+}
+
+.reason,
+.o,
+.reason2,
+.comp_pn,
+.comp_ph {
+    width:290px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+}
+
+.em_tick,
+.employ-s,
+.occu-s {
+    margin: 0;
+}
+
+.et {
+    display: flex;
+}
+
+.emp {
+    margin-right: 40px;
+}
+
+.em_tick {
+    margin-bottom: 8px;
+}
+
+.comp_a {
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.employ-s {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+
+/* form3 */
+
+.comp_ab {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 591.5px;
+}
+
+.an1 {
+    margin: 0;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.second_to_last {
+    text-align: center;
+}
+
+.speech {
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.sh {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.comp_ab1 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 591.5px;
+    text-align: center;
+}
+
+/* submitting button and * settings */
+
+.submit_button {
+    text-align: center;
+}
+
+.button_sub {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: brown;
+    border: none;
+    margin-top: 35px;
+    border-radius: 6px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.button_sub:hover {
+    background-color: rgb(207, 54, 54);
+}
+
+.button_sub:active{
+    background-color: rgba(165, 42, 42, 0.705);
+}
+
+/* previously and next spacing in page 2 */
+.pre {
+    display: flex;
+    justify-content: space-between;
+}
